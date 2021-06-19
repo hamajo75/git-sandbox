@@ -19,6 +19,8 @@ For experimenting with git
     git stash pop
     git log [--graph]
     git rebase master                                - put current feature branch in front of master
+    git rebase --interactive <hash>                  - rewrite commit history, <hash> - commit right before the commits-block to be changed
+                                                       (e.g. edit msg, squash, reorder, etc.)
 
 View all Files in branch
 
